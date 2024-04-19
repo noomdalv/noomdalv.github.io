@@ -8,16 +8,16 @@
 }
 
 .landing-info {
-	width: 90%;
+  width: 90%;
   display: flex;
   margin: auto;
   margin-top: 30px;
-	border-radius: 15px;
-	background: rgb(255,255,255, 0.3);
+  border-radius: 15px;
+  background: rgb(255, 255, 255, 0.3);
 }
 
 .landing-about {
-	display: flex;
+  display: flex;
   width: 60%;
   text-align: center;
   align-items: center;
@@ -40,8 +40,8 @@
 
 .landing-intro p {
   margin: 0;
-	padding: 0;
-	padding-left: 30px;
+  padding: 0;
+  padding-left: 30px;
   font-family: "Inconsolata";
   font-size: 1.1rem;
 }
@@ -256,34 +256,34 @@ i {
   flex-direction: column;
   padding: 50px 0 0 0;
   text-align: center;
-	background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .about-text {
   padding: 40px 20px 0 20px;
-  font-family: 'K2D';
+  font-family: "K2D";
 }
 
 .aboutme {
-	font-family: 'K2D';
-	font-size: 1.1rem;
-	padding-bottom: 20px;
+  font-family: "K2D";
+  font-size: 1.1rem;
+  padding-bottom: 20px;
 }
 
 .aboutme i {
-	margin: 0;
-	font-size: 1.6rem;
+  margin: 0;
+  font-size: 1.6rem;
 }
 
 .about-text p {
   margin: 0;
-	padding: 10px;
+  padding: 10px;
 }
 
 .aboutstack {
-	margin: 20px auto;
-	padding: 0 0 20px 5px;
-	border-radius: 15px;
+  margin: 20px auto;
+  padding: 0 0 20px 5px;
+  border-radius: 15px;
 }
 
 .about-text h5 {
@@ -298,9 +298,9 @@ i {
   margin: auto;
   padding: 5px;
   display: grid;
-  grid-template-columns:1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(4, 1fr);
-	grid-column-gap: 5px;
+  grid-column-gap: 5px;
   grid-row-gap: 10px;
 }
 
@@ -310,44 +310,45 @@ i {
   padding: 2px;
   font-size: 0.8rem;
   font-weight: 500;
-	box-shadow: 1px 2px;
+  box-shadow: 1px 2px;
   border: solid black 2px;
 }
 
 .about-contact {
   display: flex;
-	align-items: center;
-	justify-content: center;
-  font-family: 'K2D';
+  align-items: center;
+  justify-content: center;
+  font-family: "K2D";
   flex-direction: column;
 }
 
-.about-contact h5, .aboutstack h5 {
-	width: max-content;
-	padding: 5px 10px;
-	border-radius: 5px;
-	font-size: 1rem;
-	color: white;
-	background: #45484d;
+.about-contact h5,
+.aboutstack h5 {
+  width: max-content;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: white;
+  background: #45484d;
   background: -webkit-linear-gradient(#45484d 0%, #000000 100%);
   background: -o-linear-gradient(#45484d 0%, #000000 100%);
   background: linear-gradient(#45484d 0%, #000000 100%);
 }
 
 .contact-links {
-	display: flex;
-	flex-direction: column;
-	padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
 }
 
 .contact-links h6 {
   display: flex;
-	margin: 0;
-	margin-right: 10px;
-	padding: 0;
-	font-size: 1rem;
-	font-weight: 400;
-	align-items: center;
+  margin: 0;
+  margin-right: 10px;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  align-items: center;
 }
 
 .contact-links i {
@@ -359,17 +360,18 @@ i {
   display: flex;
   flex-direction: column;
   align-items: center;
-	text-align: center;
-	background: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .about-social span {
-	margin-top: 20px;
-	font-family: 'Rock Salt';
-	font-size: 1rem;
+  margin-top: 20px;
+  font-family: "Rock Salt";
+  font-size: 1rem;
 }
 
-.about-links i:hover, .media-links i:hover {
+.about-links i:hover,
+.media-links i:hover {
   transform: scale(1.3);
 }
 
@@ -388,14 +390,14 @@ i {
 }
 
 .footer span {
-	margin: 0 5px;
-	letter-spacing: 0.1rem;
+  margin: 0 5px;
+  letter-spacing: 0.1rem;
   font-family: "Rock Salt";
 }
 
 @media (min-width: 576px) {
   .landing-intro p {
-		padding-left: 60px;
+    padding-left: 60px;
     font-size: 1.4rem;
   }
 
@@ -415,18 +417,18 @@ i {
     font-size: 1rem;
   }
 
-	.contact-links {
-		padding-left: 15%;
-	}
+  .contact-links {
+    padding-left: 15%;
+  }
 
-	.about-text ul {
-		grid-template-columns: repeat(4, 1fr);
-	  grid-template-rows: 1fr 1fr;
-	}
+  .about-text ul {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+  }
 
-	.about-social span {
-	  font-size: 1.5rem;
-	}
+  .about-social span {
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 748px) {
@@ -446,23 +448,23 @@ i {
     height: 280px;
   }
 
-	.project-info li {
-	  font-size: 0.8rem
-	}
+  .project-info li {
+    font-size: 0.8rem;
+  }
 
-	.about-text ul {
-		width: 90%;
-	}
+  .about-text ul {
+    width: 90%;
+  }
 
-	.contact-links {
-		flex-direction: row;
-		justify-content: center;
-		padding-left: 0;
-	}
+  .contact-links {
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 0;
+  }
 
-	.contact-links h6{
-		margin-right: 40px;
-	}
+  .contact-links h6 {
+    margin-right: 40px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -500,21 +502,21 @@ i {
     font-size: 1.1rem;
   }
 
-	.about-text ul {
-		width: 80%;
-	}
+  .about-text ul {
+    width: 80%;
+  }
 
-	.aboutstack {
-		width: 70%;
-	}
+  .aboutstack {
+    width: 70%;
+  }
 
-	.contact-links h6{
-		margin-right: 60px;
-	}
+  .contact-links h6 {
+    margin-right: 60px;
+  }
 
-	.about-social span {
-	  font-size: 1.7rem;
-	}
+  .about-social span {
+    font-size: 1.7rem;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -539,7 +541,7 @@ i {
     height: 280px;
   }
 
-	.about-text ul {
-		width: 70%;
-	}
+  .about-text ul {
+    width: 70%;
+  }
 }
