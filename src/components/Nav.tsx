@@ -22,7 +22,7 @@ function Nav2() {
     }
   }, []); // Empty dependency array to run the effect only once
   return (
-    <nav className="navbar">
+    <nav className="navbar flex justify-center">
       <ul>
         <li className="z-10">
           <a href="#root">Hello</a>
