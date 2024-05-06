@@ -19,16 +19,15 @@ const About = () => {
               face new programming challenges!
             </p>
           </div>
-          <div className="aboutstack">
+          <div className="about-stack">
             <h5>DEVELOPMENT STACK</h5>
-            <ul>
-              <li>Ruby</li>
-              <li>Rails</li>
+
+            <ul className="">
               <li>Javascript</li>
               <li>NodeJS</li>
               <li>ReactJS</li>
-              <li>SQL</li>
-              <li>Agile</li>
+              <li>React Native</li>
+              <li>Databases</li>
               <li>Git</li>
             </ul>
           </div>

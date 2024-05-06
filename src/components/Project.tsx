@@ -18,7 +18,7 @@ function Project({
 }: ProjectTypeProps) {
   return (
     <div className="project">
-      <h2 className="project-title">{title}</h2>
+      <h1 className="project-title text-2xl">{title}</h1>
       <div className="project-img-container">
         <img className="project-img" src={sourceImg} alt="" />
       </div>
@@ -39,13 +39,17 @@ function Project({
             </a>
           </button>
         </div>
-        <p>{description}</p>
-        <h3>Built With:</h3>
-        <ul>
-          {usedTools.map((tool) => (
-            <li>{tool}</li>
-          ))}
-        </ul>
+        <div className="project-description">
+          <p>{description}</p>
+        </div>
+        <div className="project-tools">
+          <h3>Built With:</h3>
+          <ul>
+            {usedTools.map((tool) => (
+              <li key={tool}>{tool}</li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );
