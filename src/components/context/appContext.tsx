@@ -1,9 +1,6 @@
 import { createContext, useState } from "react";
 import Project from "../Project";
 
-const isDev = process.env.NODE_ENV === "development";
-const basePath = isDev ? "" : "https://noomdalv.github.io";
-
 export type AppContextType = {
   projects: Project[];
 };
