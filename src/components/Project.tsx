@@ -18,7 +18,7 @@ function Project({
 }: ProjectTypeProps) {
   return (
     <div className="project">
-      <h1 className="project-title text-2xl">{title}</h1>
+      <h1 className="project-title text-2xl truncate">{title}</h1>
       <div className="project-img-container">
         <img className="project-img" src={sourceImg} alt="" />
       </div>

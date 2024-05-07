@@ -45,7 +45,7 @@ export const projects: Project[] = [
     id: 2024050604,
     title: "Note Storage App",
     description:
-      "Note storage system built with React and TypeScript. Uses local storage to persist notes between sessions and search functionality to filter notes",
+      "Note storage system built with React and TypeScript. Uses local storage to persist notes between sessions and search functionality to filter notes.",
     sourceImg: ImgNotesApp,
     repoUrl: "https://github.com/noomdalv/react_ts_adv_notes",
     usedTools: ["React", "TypeScript"],
