@@ -136,7 +136,7 @@ const projects: Project[] = [
 export const AppContext = createContext<AppContextType>({ projects: [] });
 
 export const AppProvider = ({ children }: { children: React.ReactNode }) => {
-  const [projectList, setProjectList] = useState<Project[]>(projects);
+  const [projectList] = useState<Project[]>(projects);
 
   return (
     <AppContext.Provider value={{ projects: projectList }}>
