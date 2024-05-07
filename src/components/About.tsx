@@ -14,10 +14,10 @@ const About = () => {
               <i className="far fa-smile"></i>
             </p>
             <p>I'm a Computer Science Engineer / Software Developer.</p>
-            <p>
+            {/* <p>
               I consider myself a natural born logical thinker and I love to
               face new programming challenges!
-            </p>
+            </p> */}
           </div>
           <div className="about-stack">
             <h5>DEVELOPMENT STACK</h5>

@@ -39,11 +39,11 @@ function Project({
             </a>
           </button>
         </div>
-        <div className="project-description">
+        <div className="project-description ">
           <p>{description}</p>
         </div>
-        <div className="project-tools">
-          <h3>Built With:</h3>
+        <div className="project-tools mb-1 self-end">
+          <h2>Built With:</h2>
           <ul>
             {usedTools.map((tool) => (
               <li key={tool}>{tool}</li>
