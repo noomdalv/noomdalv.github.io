@@ -259,8 +259,11 @@ i {
 
 .project-links {
   display: flex;
-  padding: 5px 0;
-  background: #3e3e3e;
+  padding: 10px 0;
+  background: #45484d;
+  background: -webkit-linear-gradient(#45484d 0%, #000000 100%);
+  background: -o-linear-gradient(#45484d 0%, #000000 100%);
+  background: linear-gradient(#45484d 0%, #000000 100%);
   border-bottom: solid black 3px;
   justify-content: flex-end;
 }
@@ -271,10 +274,6 @@ i {
   color: black;
   font-size: 0.9rem;
   font-family: "K2D";
-}
-
-.project-links a:hover {
-  color: white;
 }
 
 .project-links button {
@@ -291,6 +290,9 @@ i {
   border: solid white 2px;
 }
 
+.project-links button:hover a {
+  color: white;
+}
 .project-links button:active {
   transform: translateY(2px);
 }
@@ -332,7 +334,8 @@ i {
 }
 
 .project-tools ul li {
-  background-color: #000000;
+  background: #000000;
+  font-size: 1rem;
   color: white;
   width: max-content;
 }
